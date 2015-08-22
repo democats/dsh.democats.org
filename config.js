@@ -4,8 +4,6 @@ var poolHost = "pool-api.democats.org";
 
 var irc = "irc.freenode.net/#democats";
 
-var email = "";
-
 var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-XMR", "{symbol}-USD"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
