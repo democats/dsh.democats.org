@@ -1,10 +1,8 @@
-var api = "http://pool-107.democats.org:29083";
+var api = "http://pool-api.democats.org:29083";
 
-var poolHost = "pool-107.democats.org";
+var poolHost = "pool-api.democats.org";
 
 var irc = "irc.freenode.net/#democats";
-
-var email = "";
 
 var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-XMR", "{symbol}-USD"];
 
