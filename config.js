@@ -1,4 +1,4 @@
-var api = "http://pool-api.democats.org:29083";
+var api = "http://pool-api.democats.org:7613";
 
 var poolHost = "pool-api.democats.org";
 
