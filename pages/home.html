@@ -80,7 +80,7 @@
 
 
 <div id="siteInfo">
-    <!-- Description or information about this pool -->
+    <div styles="color: red;">POOL SOFTWARE MOVED TO FORKNOTE 1.0.7.1 (24/08/2015)</div>
 </div>
 
 <div class="row">
@@ -346,7 +346,7 @@
                 $('#donations').hide()
             }
 
-            updateText('poolFee', floatToString(totalFee) + '%');
+            updateText('poolFee', totalFee.toString() + '%');
 
 
             updateText('blockSolvedTime', getReadableTime(lastStats.network.difficulty / lastStats.pool.hashrate));
