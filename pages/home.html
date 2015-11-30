@@ -80,9 +80,7 @@
 
 
 <div id="siteInfo">
-    POOL SOFTWARE MOVED TO FORKNOTE 1.0.7.1 (24/08/2015)<br />
-    Pool moved to new server<br />
-    Fee changed to 0%<br />
+    <!-- Description or information about this pool -->
 </div>
 
 <div class="row">
@@ -312,6 +310,8 @@
             }
             if (xhrGetPayments) xhrGetPayments.abort();
         },
+        init: function(){
+        },
         update: function(){
 
             $('#networkLastBlockFound').timeago('update', new Date(lastStats.network.timestamp * 1000).toISOString());
@@ -378,16 +378,6 @@
             amount = amount / units[i][0];
         }
         return formatAmounts(amount,  units[units.length - 1][1]);
-    }
-
-    function getReadableHashRateString(hashrate){
-        var i = 0;
-        var byteUnits = [' H', ' KH', ' MH', ' GH', ' TH', ' PH' ];
-        while (hashrate > 1024){
-            hashrate = hashrate / 1024;
-            i++;
-        }
-        return hashrate.toFixed(2) + byteUnits[i];
     }
 
 
