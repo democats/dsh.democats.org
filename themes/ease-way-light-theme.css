@@ -7,10 +7,13 @@ a:hover {
 body {
   color: #8a8a8a;
   background-color: #ffffff;
-  background-image: url(img/bg2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed; 
+  font-family: "Helvetica Neue", arial, freesans, clean, sans-serif;
+}
+.h6 {
+  font-family: "Helvetica Neue", arial, freesans, clean, sans-serif;
 }
 .navbar-inverse {
   background-color: #2B2B2B;
