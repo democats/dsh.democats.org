@@ -16,4 +16,4 @@ var blockchainExplorer = "/?hash={id}#blockchain_block";
 //var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
 var transactionExplorer = "/?hash={id}#blockchain_transaction";
 
-var themeCss = "themes/ease-way-light-theme.css";
+var themeCss = "";
